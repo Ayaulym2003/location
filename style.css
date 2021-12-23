@@ -2,20 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
   }
   
   html,
   body {
-   background-color: #746a57;
+    height: 100vh;
   }
   
   body {
-    background-color: #746a57;
+    background-color: #C1D0D0;
     font-family: Roboto, Arial, sans-serif;
     
+    
   }
-  
+ 
   .navigation__checkbox {
       display: none;
   }
@@ -27,7 +27,7 @@
       height: 57px;
       width: 140px;
       border-radius: 25px;
-      background: #746a57;
+      background: #ebe9e5;
       text-align: center;
       
       z-index: 300;
@@ -35,23 +35,13 @@
       font-size: 15px;
   }
   
-  @media screen  and (min-width: 768px) {
-      .navigation__button {
-        top: 20px;
-        left: 85px;
-        height: 57px;
-        width: 140px;
-        border-radius: 25px;
-        background:   white;
-      }
-  }
   
   .navigation__background {
       position: fixed;
-      top: 20px;
-      left: 85px;
-      height: 50px;
-      width: 130px;
+      top: 22px;
+      left: 90px;
+      height: 40px;
+      width: 40px;
       border-radius: 25px;
       background: rgb(116, 106, 87, 0.9);
       background-size: cover;
@@ -59,14 +49,6 @@
       transition: all 800ms cubic-bezier(0.86, 0, 0.07, 1);
   }
   
-  @media screen and (min-width: 768px) {
-      .navigation__background {
-        top: 20px;
-        left: 85px;
-          height: 50px;
-          width: 130px;
-      }
-  }
   
   .navigation__nav {
       position: fixed;
@@ -105,14 +87,7 @@
       text-decoration: none;
       transition: all .2s;
   }
-  
-  @media(min-width: 768px) {
-      .navigation__link:link,
-      .navigation__link:visited {
-          font-size: 45px;
-      }
-  }
-  
+   
   
   .navigation__link:hover {
       color: #fff;
@@ -135,11 +110,6 @@
       
   }
   
-  @media screen and (min-width: 768px) {
-      .navigation__icon {
-        
-      }
-  }
   
   .navigation__icon,
   .navigation__icon::before,
@@ -156,15 +126,7 @@
       margin-top: 25px;
   }
   
-  
-  @media (min-width: 768px) {
-      .navigation__icon,
-      .navigation__icon::before,
-      .navigation__icon::after {
-          width: 20px;
-      }
-  }
-  
+
   .navigation__icon::before,
   .navigation__icon::after {
       content: '';
@@ -285,60 +247,55 @@
 
 
 
-  /*-----------------------*/
-  
-  
-  /*
-  
-  cream: rgb(238, 225, 225);
-  brown: #494235;  rgb(116, 106, 87)
-  pink: rgb(235, 191, 191)
-  */
+
 .content{
-    height: 100vh;
+    height: 100%;
     background-color: #746a57;
 }
 #ee{
     position: absolute;
-    top: 13vh;
-    width: 65vw;
-    height: 87vh;
+    top: 13%;
+    width: 65%;
+    height: 87%;
 }
 
 #ll{
     text-transform: uppercase;
     color: white;
+    font-weight: 300;
     position: absolute;
    font-size: 12vw;
-   top: 68vh;
-   width: 60vw;
+   top: 68%;
+   width: 60%;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   left: 40vw;
+   left: 40%;
 }
 .woo{
     background-color: #746a57;
-    height: 150vh;
+    height: 150%;
+     padding-top: 50px;
 }
-#word2{
+#word2{  
+
     color: white;
     font-size: 2vw;
     position: relative;
     top: 25vh;
-    left: 20vw;
-    width: 80vw;
+    left: 20%;
+    width: 80%;
     z-index: 1;
 }
 #we{
     width: 35vw;
     position: relative;
-    top: 10vh;
-    left: 55vw;
-    height: 80vh;
+    top: 30vh;
+    left: 55%;
+    height: 90vh;
 }
 #ww{
     width: 20vw;
     position: relative;
-    top: 40vh;
+    top: 50vh;
     left: 10vw;
 }
 .car{
@@ -351,34 +308,34 @@
 
 hr{
     position: relative;
-    left: 10vw;
+    left: 10%;
     width: 80vw;
     top: 10vh;
 }
 #c1{
     position: relative;
-    left: 8.5vw;
+    left: 8.5%;
     top: 13.6vh;
     z-index: 1;
     color: #746a57;
 }
 #c2{
     position: relative;
-    left: 30vw;
+    left: 30%;
     top: 13.6vh;
     z-index: 1;
     color: #746a57;
 }
 #c3{
     position: relative;
-    left: 60vw;
+    left: 60%;
     top: 13.6vh;
     z-index: 1;
     color: #746a57;
 }
 #c4{
     position: relative;
-    left: 85vw;
+    left: 85%;
     top: 13.6vh;
     z-index: 1;
     color: #746a57;
@@ -394,14 +351,15 @@ hr{
 #mer{
     position: relative;
     top: 5vw;
-    left: 6vw;
+    left: 6%;
     font-size: 2vw;
 }
 #min1{
     width: 200px;
     position: relative;
     top: 0;
-    left: 32vw;
+    text-align: center;
+    left: 25%;
 }
 
 #min1 h1{
@@ -411,7 +369,8 @@ hr{
     width: 200px;
     position: relative;
     top: -6.6vw;
-    left: 63vw;
+    text-align: center;
+    left: 57%;
 }
 
 #min2 h1{
@@ -421,12 +380,11 @@ hr{
     width: 200px;
     position: relative;
     top: -13.2vw;
-    left: 88vw;
-    overflow: hidden;
+    text-align: center;
+    left: 85%;
 }
 
 #min3 h1{
-    width: 200px;
     font-size: 50px;
 }
 .words{
@@ -434,22 +392,24 @@ hr{
     background-color: #746a57;
     overflow-y: hidden;
     overflow: hidden;
-    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
 #ev{
+    position: relative;
+    left: 0vw;
     margin-top: 15vh;
     color: rgb(255, 255, 255);
     font-size: 8vw;
 }
 #yn{
     position: relative;
-    left: 55vw;
+    left: 55%;
     color: rgb(255, 255, 255);
     font-size: 8vw;
 }
 #nyh{
     position: relative;
-    left: 15vw;
+    left: 18%;
     color: white;
     font-size: 8vw;
 }
@@ -463,6 +423,7 @@ hr{
 }
 
 .footer{
+    position: relative;
     width:100%;
     height: 550px;
     background-color:rgb(39, 34, 33);
@@ -498,3 +459,168 @@ padding-bottom: 20px;
     color:rgb(116, 106, 87);
     font-size: 10px;
 }
+
+@media(max-width: 700px){
+    .di{
+        display: none;
+    } 
+    .navigation__button{
+        width: 57px;
+        border-radius: 50%;
+        
+    } 
+    .navigation__icon,
+      .navigation__icon::before,
+      .navigation__icon::after {
+          width: 15px;
+          left: 22px;
+         }  
+    .navigation__icon::before{
+          width: 15px;
+          left: 0px;
+     } 
+    .navigation__icon::after {
+             width: 15px;
+             left: 0px;
+            
+    }
+    .logo{
+        padding-left: 90px;
+    }
+    .phone{
+        display: none;
+    }  
+    .navigation__list{
+        padding-left: 0;
+    }  
+    #ee{
+        width: 70vw;
+        height: 45vh;
+    }
+    .content{
+        height: 45vh;
+    }
+    #ll{
+        position: absolute;
+       font-size: 12vw;
+       top: 40vh;
+       width: 60vw;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       left: 40%;
+    }
+    
+    .woo{
+        background-color: #746a57;
+        height: 100vh;
+    }
+    #word2{
+        color: white;
+        font-size: 4vw;
+        position: relative;
+        top: 25vh;
+        left: 10%;
+        z-index: 1;
+    }
+    #we{
+        width: 35vw;
+        position: relative;
+        top: 20vh;
+        height: 40vh;
+    }
+    #ww{
+        width: 30vw;
+        position: relative;
+        top: 35vh;
+        left: 0%;
+    }
+    .car{
+        height: 50vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    hr{
+        top: 6vh;
+    }
+    #c1{
+        left: 7%;
+        top: 9.6vh;
+        z-index: 1;
+    }
+    #c2{
+        left: 25%;
+        top: 9.6vh;
+        z-index: 1;
+    }
+    #c3{
+        left: 50%;
+        top: 9.6vh;
+        z-index: 1;
+    }
+    #c4{
+        left: 77%;
+        top: 9.6vh;
+        z-index: 1;
+    }
+    
+    #re{
+        width: 30vw;
+        z-index: 2;
+        top: -2%;
+        left: -150vw;
+    }
+    #mer{
+        top: 2vh;
+        left: 2%;
+        font-size: 3vw;
+    }
+    #min1{
+        margin-right: 20px;
+        width: 100px;
+        top: -4vh;
+        left: 22%;
+    }
+
+    #min2{
+        position: relative;
+        top: -21.3vw;
+        left: 43%;
+    }
+    #min3{
+        top: -37vw;
+        left: 74%;
+        overflow: hidden;
+    }
+    
+    .words{
+        height: 55vh;
+    }
+    #ev{
+        margin-top: 10vh;
+        left: -15%;
+        font-size: 10vw;
+    }
+    #yn{
+        left: 60%;
+        font-size: 10vw;
+    }
+    #nyh{
+        left: 10%;
+        font-size: 10vw;
+    }
+    .mm{
+        height: 58vh;
+    }
+    #map{
+        height: 50vh;
+        margin-bottom: 30px;
+    }
+    
+    .footer{
+        height: 450px;
+    }
+    .footer >div{
+        padding-left: 40px;
+    }
+
+    }
