@@ -349,7 +349,7 @@ hr{
     position: relative;
     width: 20vw;
     z-index: 2;
-    top: 0;
+    top: -2vh;
     left: -90vw;
 }
 #mer{
@@ -551,6 +551,7 @@ padding-bottom: 20px;
         height: 70%;
         padding-top: 50px;
         padding-bottom: 50px;
+
     }
     
     hr{
@@ -583,10 +584,10 @@ padding-bottom: 20px;
     }
     
     #re{
-        position: absolute;
+        position: relative;
         width: 30vw;
         z-index: 2;
-        top: 169.5vh;
+        top: 17vh;
         left: -150vw;
     }
     #mer{
@@ -606,12 +607,13 @@ padding-bottom: 20px;
     #min2{
         position: absolute;
         top: 180.6vh;
-        left: 43%;
+        left: 41vw;
     }
     #min3{
         position: absolute;
         top: 180.6vh;
-        left: 68%;
+        left: 79vw;
+        width: 100px;
         overflow: hidden;
     }
     
