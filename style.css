@@ -27,7 +27,7 @@
       height: 57px;
       width: 140px;
       border-radius: 25px;
-      background: #ebe9e5;
+      background: #ffffff;
       text-align: center;
       
       z-index: 300;
@@ -43,7 +43,7 @@
       height: 40px;
       width: 40px;
       border-radius: 25px;
-      background: rgb(116, 106, 87, 0.9);
+      background: transparent;
       background-size: cover;
       background-position: center;
       transition: all 800ms cubic-bezier(0.86, 0, 0.07, 1);
@@ -82,20 +82,23 @@
       display: inline-block;
       padding: 1rem 2rem;
       text-transform: uppercase;
-      color: rgb(235, 191, 191);
-      font-size: 45px;
+      color: rgb(236, 205, 205);
+      font-size: 35px;
+      font-weight: 350;
       text-decoration: none;
       transition: all .2s;
   }
-   
-  
+
   .navigation__link:hover {
       color: #fff;
       transform: scale(1.1);
   }
-  
+  #jh{
+      color: #fff;
+  }
   .navigation__checkbox:checked~.navigation__background {
-      transform: scale(80)
+      transform: scale(80);
+      background-color: rgb(116, 106, 87, 0.9);
   }
   
   .navigation__checkbox:checked~.navigation__nav {
@@ -222,7 +225,7 @@
       color:  white;
       font-size: 30px;
       text-transform: uppercase;
-      padding-top: 25px;
+      padding-top: 10px;
   }
   .menu .phone{
       color: white ;
@@ -236,15 +239,14 @@
     border-radius: 50%;
     text-align: center;
     margin-top: 30px;
-    margin-right: 40px;
+    margin-left: 0;
     padding-top: 8px;
+    margin-right: 25px;
   }
   .menu .phIcon svg {
       color: rgb(116, 106, 87);
       
   }
-
-
 
 
 
@@ -255,8 +257,9 @@
 #ee{
     position: absolute;
     top: 13%;
-    width: 65%;
-    height: 87%;
+    width: 57vw;
+    height: 87vh;
+    object-fit: cover;
 }
 
 #ll{
@@ -269,6 +272,7 @@
    width: 60%;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    left: 40%;
+   
 }
 .woo{
     background-color: #746a57;
@@ -300,8 +304,8 @@
 }
 .car{
     background-color: rgb(241, 240, 226);
-    height: 60vh;
-    padding-top: 40px;
+    height: 60%;
+    padding-top: 50px;
     overflow-y: hidden;
     overflow: hidden;
 }
@@ -467,8 +471,11 @@ padding-bottom: 20px;
     .navigation__button{
         width: 57px;
         border-radius: 50%;
-        
+        left: 25px;
     } 
+    .navigation__background{
+        left: 28px;
+    }
     .navigation__icon,
       .navigation__icon::before,
       .navigation__icon::after {
@@ -489,16 +496,23 @@ padding-bottom: 20px;
     }
     .phone{
         display: none;
-    }  
+    }   
     .navigation__list{
         padding-left: 0;
-    }  
-    #ee{
-        width: 70vw;
-        height: 45vh;
     }
+    .menu{
+        width: 100vw;
+    }
+    .menu .logo{
+        font-size: 6vw;
+    }
+   
     .content{
-        height: 45vh;
+        height: 45%;
+    }
+    #ee{
+        height: 40%;
+        width: 80%;
     }
     #ll{
         position: absolute;
@@ -534,74 +548,75 @@ padding-bottom: 20px;
         left: 0%;
     }
     .car{
-        height: 50vh;
+        height: 70%;
         padding-top: 50px;
         padding-bottom: 50px;
     }
     
     hr{
-        top: 6vh;
+        top: 30%;
     }
     #c1{
-        left: 7%;
-        top: 9.6vh;
+        left: 6vw;
+        top:  20.4vh;
         z-index: 1;
     }
     #c2{
-        left: 25%;
-        top: 9.6vh;
+        left: 20vw;
+        top: 20.4vh;
         z-index: 1;
     }
     #c3{
         left: 50%;
-        top: 9.6vh;
+        top: 20.4vh;
         z-index: 1;
     }
     #c4{
-        left: 77%;
-        top: 9.6vh;
+        left: 74%;
+        top: 20.4vh;
         z-index: 1;
     }
     
     #re{
         width: 30vw;
         z-index: 2;
-        top: -2%;
+        top: 9vh;
         left: -150vw;
     }
     #mer{
-        top: 2vh;
+        top: -17%;
         left: 2%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
     #min1{
         margin-right: 20px;
         width: 100px;
-        top: -4vh;
-        left: 22%;
+        top: 5vh;
+        left: 17%;
     }
 
     #min2{
         position: relative;
-        top: -21.3vw;
+        top: -65%;
         left: 43%;
     }
     #min3{
-        top: -37vw;
-        left: 74%;
+        position: absolute;
+        top: 180.6vh;
+        left: 68%;
         overflow: hidden;
     }
     
     .words{
-        height: 55vh;
+        height: 55%;
     }
     #ev{
         margin-top: 10vh;
-        left: -15%;
+        left: -25%;
         font-size: 10vw;
     }
     #yn{
-        left: 60%;
+        left: 70%;
         font-size: 10vw;
     }
     #nyh{
@@ -617,10 +632,14 @@ padding-bottom: 20px;
     }
     
     .footer{
-        height: 450px;
+        height: 50vh;
     }
     .footer >div{
-        padding-left: 40px;
+        padding-left: 20px;
+        font-size: 3vw;
+    }
+    #rp{
+        padding-right: 20px;
     }
 
     }
