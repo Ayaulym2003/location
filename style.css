@@ -572,7 +572,7 @@ padding-bottom: 20px;
     }
     #c3{
         position: absolute;
-        left: 60vw;
+        left: 55vw;
         top: 172.8vh;
         z-index: 1;
     }
@@ -601,19 +601,24 @@ padding-bottom: 20px;
         margin-right: 20px;
         width: 100px;
         top: 180.6vh;
-        left: 17%;
+        left: 17vw;
+        width: 20vw;
+        font-size: 2vw;
     }
 
     #min2{
         position: absolute;
         top: 180.6vh;
-        left: 41vw;
+        left: 49vw;
+        width: 20vw;
+        font-size: 2vw;
     }
     #min3{
         position: absolute;
         top: 180.6vh;
         left: 79vw;
-        width: 100px;
+        width: 20vw;
+        font-size: 2vw;
         overflow: hidden;
     }
     
